@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Name */
+.card h2 {
+    margin: 10px 0 5px;
+}
+
+/* Span Highlight */
+.card span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* List */
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Links */
+.links a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    background-color: #007bff;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: #0056b3;
+}
+
+/* Form */
+form {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
